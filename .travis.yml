@@ -6,3 +6,5 @@ before_install:
   - docker build -t cicd -f Dockerfile .
 
 language: node_js
+
+script: 'true'
