@@ -5,3 +5,4 @@ services:
 before_install:
   - docker build -t aju-k/CICD -f Dockerfile .
 
+language: node_js
